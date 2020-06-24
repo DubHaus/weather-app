@@ -1,0 +1,3 @@
+export const SET = 'WEATHER_DATA/SET';
+export const SET_LOADING = 'WEATHER_DATA/SET_LOADING';
+export const SET_ERROR = 'WEATHER_DATA/SET_ERROR'

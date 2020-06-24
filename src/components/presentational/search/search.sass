@@ -1,3 +1,42 @@
 @import ../../../assets/style/variables
   
 .search
+  display: flex
+  align-items: center
+  justify-content: space-between
+  margin-bottom: 10px
+  &__container
+    width: 250px
+    height: 30px
+    position: relative
+  &__input
+    width: 90%
+    height: 100%
+    font-size: 15px
+    &:focus + label
+      transform: rotate(100deg)
+  &__label
+    width: 20px
+    height: 20px
+    z-index: 1
+    @include transition ()
+    
+  &__icon
+    width: 100%
+
+  &__items
+    position: absolute
+    width: 100%
+    background: $white
+    z-index: 2
+  &__item
+    font-size: 14px
+    height: 30px
+    text-align: left
+    margin: 5px 0
+    padding: 5px
+    width: 100%
+    overflow: hidden
+    white-space: nowrap
+    text-overflow: ellipsis
+    

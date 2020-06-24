@@ -1,0 +1,3 @@
+export const SET_ACTIVE = 'FORECAST/SET_ACTIVE';
+export const SET_DATA = 'FORECAST/SET_DATA';
+export const SET_LOADING = 'FORECAST/SET_LOADING'

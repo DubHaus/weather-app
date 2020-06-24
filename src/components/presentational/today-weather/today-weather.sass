@@ -1,0 +1,26 @@
+@import ../../../assets/style/variables
+
+.today-weather
+  width: 260px
+  padding: 60px 30px
+  border-radius: 10px
+  background: $light-blue
+  & > *:not(:last-child)
+    margin-bottom: 30px    
+  &__icon
+    width: 160px
+    display: block
+    margin: 0 auto
+  &__temerature
+    font-size: 95px
+    font-weight: 300
+    display: flex
+    align-items: flex-start
+    & span
+      margin-top: 10px
+      font-size: 50px
+  &__subtitle
+    font-size: 24px
+  &__text
+    font-size: 20px
+

@@ -1,0 +1,27 @@
+@import ../../../assets/style/variables
+
+.today-highlights
+  &__title
+    font-size: 24px
+    font-weight: bold
+  &__items
+    display: flex
+    align-items: center
+    justify-content: space-between
+    flex-wrap: wrap
+
+
+.today-highlights-item
+  width: 26%
+  flex-shrink: 0
+  flex-grow: 0
+  padding: 20px
+  &:not(:nth-child(n+4))
+    margin-bottom: 30px
+  &__title
+    font-weight: normal
+    color: $grey
+    font-size: 18px
+    margin-bottom: 20px
+  &__text
+    font-size: 35px

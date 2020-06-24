@@ -1,0 +1,35 @@
+@import ../../../assets/style/variables
+
+.UV-index
+  text-align: center
+  width: 250px
+  margin: 0 auto
+  .uv-diagramm
+    position: relative
+    display: flex
+    align-items: flex-end
+    height: 120px
+    &__title
+      position: relative
+      display: block
+      margin-top: -50px
+    &__items
+      position: absolute
+      top: 0
+      left: 0
+      display: flex
+      justify-content: space-between
+      width: 80%
+      margin-left: 10%
+      height: 100%
+      span
+        font-size: 14px
+        color: $grey
+        &:first-child,
+        &:last-child
+          padding-top: 45%
+        &:nth-child(2),
+        &:nth-child(4)
+          padding-top: 15%
+        &:nth-child(3)
+          padding-top: 5%

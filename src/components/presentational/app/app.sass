@@ -1,0 +1,61 @@
+@import ../../../assets/style/variables
+
+body, input, button,p,h1,h2,h3,h4,h5,h6
+  margin: 0
+  padding: 0
+
+#root 
+  background: #E5E5E5
+  min-height: 100vh
+
+body *
+  font-family: 'Poppins', sans-serif
+  color: $black
+  box-sizing: border-box
+
+input, button
+  border: none
+  outline: none
+
+img
+  max-width: 100%
+
+.grey
+  color: $grey
+
+
+
+.weather-app
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  margin: auto
+  height: fit-content
+  display: flex
+  width: 90%
+  max-width: 1200px
+  background: $white
+  box-shadow: 0px 50px 50px 25px rgba(0, 0, 0, 0.1)
+  border-radius: 71px
+  padding: 50px
+
+
+.left-column
+  width: 25%
+  max-width: 360px
+  flex-shrink: 0
+  flex-grow: 0
+
+.right-column
+  width: 75%
+  .forecast-list
+    margin-bottom: 30px
+
+.header
+  height: 70px
+  display: flex
+  align-items: center
+  justify-content: space-between
+  margin-bottom: 40px
