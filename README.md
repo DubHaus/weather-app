@@ -9,4 +9,5 @@ Show current weather, and forecast on 24 hours or 7 days
 # How to use
 1. Copy repo 
 2. npm install
+
 Enjoy!
